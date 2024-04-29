@@ -7,7 +7,6 @@ const array = [
     { id: 6, name: "Farhan", city: "Islamabad" }
 ]
 const groupByObject = {};
-
 for (let user of array) {
     let city = user.city;
     groupByObject.hasOwnProperty(city) ? null : groupByObject[city] = [];
